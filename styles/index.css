@@ -112,9 +112,23 @@
     text-align: center;
 }
 
+.Users{
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+
+}
+
 .users-overall{
     font-size: 20px;
     font-family: "Inter", sans-serif;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+.ditels{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
 }
