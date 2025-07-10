@@ -1,0 +1,68 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* hero section */
+.hero-section{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-size: cover;
+    height: 698px;
+}
+
+/* shared style */
+.nav-container{
+    font-size: 34px;
+    font-weight: black;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+
+.button-container{
+    color: #ffffff;
+    background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    width: 132px; 
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.button-container:hover{
+    background-color: rgb(233, 233, 60);
+    color: black;
+}
+
+
+/* nav style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    align-items: center;
+}
+
+
+/* banner style */
+.banner{
+    margin: 0px 267.5px;
+    text-align: center;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.banner h1{
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner button{
+    height: 48px;
+    width: 174px;
+}
