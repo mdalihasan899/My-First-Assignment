@@ -12,9 +12,9 @@
 }
 
 /* shared style */
-.nav-container{
+.logo-container{
     font-size: 34px;
-    font-weight: black;
+    font-weight: 900;
     color: #4E47FF;
     font-family: "Inter", sans-serif;
 }
@@ -64,7 +64,7 @@
 
 /* action section style */
 .action-section{
-    margin: 116px 160px 116px 140px;
+    margin: 116px 160px 0px 140px;
 }
 
 .action-container{
@@ -84,7 +84,7 @@
 
 .action-container p{
     font-size: 24px;
-    color: rgba(37, 36, 50, 0.503);
+    color: rgba(37, 36, 50, 0.5);
     font-family: "Raleway", sans-serif;
 }
 
@@ -93,4 +93,28 @@
     height: 328px;
     width: 403px;
     border-radius: 48px;
+}
+
+/* productive users style */
+.productive-users{
+    background-color: rgba(77, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+    margin: 116px 159px 0px 141px;
+}
+
+.Users-heading{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.users-overall{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
