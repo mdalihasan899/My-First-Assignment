@@ -236,7 +236,7 @@ body{
     display: flex;
     margin: 71px 149px 71px 151px;
     gap: 115px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -257,7 +257,7 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-.newsletter-section input[type="text"], .newsletter-section input[type="email"], .newsletter-section textarea{
+.newsletter-section input[type="text"], .newsletter-section input[type="email"] {
     border: none;
     height: 60px;
     border-radius: 10px;
@@ -270,6 +270,22 @@ body{
     margin-top: 10px;
     font-size: 20px;
     font-family: "Inter", sans-serif;
+}
+
+.newsletter-section textarea{
+    border: none;
+    height: 135px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #D6DDED;
+    width: 90%;
+    display: block;
+    padding: 20px 25px 20px 25px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    resize: none;
 }
 
 .newsletter-section button{
