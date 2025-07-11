@@ -3,7 +3,7 @@
 }
 
 body{
-        background-color: rgb(78, 71, 255, 0.05);
+        background-color: rgb(78, 71, 255, 0.03);
 }
 
 /* hero section */
@@ -148,6 +148,55 @@ body{
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: #252432;
+}
+.user-review{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.user-id{
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.star{
+    padding: 24px 0px 0px 24px;
+}
+
+.user-tital{
+    padding: 24px;
+}
+.user-tital h4{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+}
+.user-tital p{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    padding-top: 8px;
+}
+
+.user-info{
+    display: flex;
+    padding: 0px 24px 24px;
+}
+.user-info img{
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.user-info h4{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #00000086;
+}
+.user-info p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #0000004b;
 }
 
 /* focus style */
