@@ -245,7 +245,7 @@ body{
 }
 
 .newsletter-section h1{
-    font-size: 97px;
+    font-size: 92px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: #000000;
@@ -259,7 +259,6 @@ body{
 
 .newsletter-section input[type="text"], .newsletter-section input[type="email"] {
     border: none;
-    height: 60px;
     border-radius: 10px;
     background-color: #ffffff;
     border: 1px solid #D6DDED;
@@ -274,7 +273,7 @@ body{
 
 .newsletter-section textarea{
     border: none;
-    height: 135px;
+    height: 110px;
     border-radius: 10px;
     background-color: #ffffff;
     border: 1px solid #D6DDED;
@@ -315,5 +314,5 @@ footer{
 .footer-op{
     color: #8987A1;
     text-decoration: none;
-    padding: 20px 48px 0px 0px;
+    padding: 20px 30px 0px 0px;
 }
