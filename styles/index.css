@@ -31,7 +31,7 @@ body{
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    transition-duration: 0.4s;
+    transition-duration: 0.7s;
 }
 .button-container:hover{
     background-color: rgb(233, 233, 60);
@@ -234,46 +234,45 @@ body{
 
 /* newsletter style */
 .newsletter-section{
-    margin: 92.23px 150px 100px;
-    padding: 71px 0px;
-    border: 2px solid black;
     display: flex;
+    padding: 92.23px 150px;
     gap: 115px;
     align-items: center;
 }
-
-.newsletter{
+.newsletter-collum{
     width: 50%;
 }
-
 .newsletter-section h1{
     font-size: 97px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: #000000;
 }
-
-.newsletter-section form label{
+.newsletter-section label{
     font-size: 18px;
     font-weight: 500;
     font-family: "Inter", sans-serif;
-    color: #000000;
+
 }
 
-.newsletter-section div input[type="text"]{
-    display: block;
-    width: 100%;
-    border-radius: 10px;
-    padding: 20px 32px;
-    background-color: #ffffff;
-    margin-bottom: 19px;
-    height: 70px;
+.newsletter-section input[type="text"], .newsletter-section input[type="email"], .newsletter-section textarea{
     border: none;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #D6DDED;
+    width: 100%;
+    display: block;
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
 
 }
-
-.newsletter-section form button{
-    padding: 19px 201px;
+.newsletter-section button{
+    width: 100%;
+    height: 62px;
 }
 
 /* footer design */
